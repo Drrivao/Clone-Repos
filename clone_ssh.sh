@@ -17,5 +17,5 @@ to add the keys on your acc.
 '''
 read -p "Press enter to check connection: " NEXT
 ssh -vT git@github.com
-read -p "Enter the ssh URL SSH of your repo: " REPO
+read -p "Enter the URL SSH of your repo: " REPO
 git clone $REPO
